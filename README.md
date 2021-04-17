@@ -1,5 +1,4 @@
-# Control-in-Human-Brain
-Repository containing code for Quantifying control circuit regulation in the human brain
+# Quantifying control circuit regulation in the human brain
 
 Manuscript: https://www.biorxiv.org/content/10.1101/2021.03.30.437729v2
 
