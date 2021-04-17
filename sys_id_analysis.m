@@ -1,10 +1,10 @@
 clc;
 clear;
 
-data = load('/Users/rajat/Desktop/pub_controltheory/MSC_Dataset_Analysis/Results/Full_Identification/sub1_data_alldata.mat');
+data = load('ts.mat');
 train = data.data;
 
-parents = load('/Users/rajat/Desktop/pub_controltheory/MSC_Dataset_Analysis/Results/Parents_all31rois/parents_sub1.mat');
+parents = load('parents.mat');
 parents = parents.parents;
 
 Ts = 2.2; % TR
