@@ -4,7 +4,7 @@ Manuscript: https://www.biorxiv.org/content/10.1101/2021.03.30.437729v2
 
 Steps for using the code (requires SPM mounted on path):
 
-1. Extract eigenvariates for each brain-region (as in the example file ts.mat) and store it in a .mat file. 
+1. Extract eigenvariates (from preprocessed fMRI data you have) for each brain-region (as in the example files ses-func01.mat and ses-func02.mat) and store it in a .mat file. You will need to run dcm pipeline on these files for each subject seperately across all sessions. 
 2. Run import_ts.m 
 3. Run specify_dcm.m
 4. Run estimate_dcm.m
